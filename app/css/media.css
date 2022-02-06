@@ -1,0 +1,498 @@
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1500px) {
+  .home:before, .home:after {
+    width: 100%; } }
+
+@media only screen and (max-width: 1300px) {
+  .tariffs-box h3 {
+    font-size: 50px; } }
+
+@media only screen and (max-width: 1200px) {
+  h1 {
+    font-size: 130px; }
+  .course-box p {
+    font-size: 33px; }
+  .about h2 {
+    font-size: 61px; }
+  .practice-col {
+    width: 33.3%; }
+  .photo-author {
+    margin: -280px auto -90px; }
+    .photo-author:before {
+      width: 768px;
+      left: 40px;
+      top: -110px; }
+  .name-author {
+    font-size: 120px; }
+  .author-course h2 {
+    margin: 0 auto 93px; }
+  .program {
+    padding: 133px 0 111px; }
+  .program-img {
+    min-width: 850px; }
+  .tariffs-box {
+    width: 100%;
+    margin: 0 auto 68px;
+    max-width: 620px;
+    min-height: 1159px; }
+    .tariffs-box h3 {
+      font-size: 60px; }
+  .tariffs h2 {
+    margin: 0 auto 134px; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .course-box p {
+    max-width: 430px;
+    margin: 0 auto;
+    font-size: 33px; }
+  h1 {
+    font-size: 105px;
+    margin: 46px auto 0; }
+  .course-box__date p {
+    margin: 0; }
+  .causes-content ul {
+    font-size: 33px; }
+  .causes {
+    background: transparent; }
+    .causes:after {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: url("../img/bg2.png") no-repeat center top;
+        background-size: cover; }
+    .causes:before {
+      height: 100%; }
+  .wrapper2 {
+    background: transparent; }
+  .practice:before {
+    display: none; }
+  .author-course h2 {
+    max-width: 450px; }
+  .author-course .box-text {
+    max-width: 573px;
+    margin: 0 auto; }
+  .photo-author {
+    margin: -220px auto -110px; }
+    .photo-author:before {
+      top: -140px;
+      left: -20px; }
+  .program {
+    position: relative; }
+    .program:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 430px;
+      background: url("../img/decor2.png") no-repeat center;
+        background-size: 100%;
+      width: 214px;
+      height: 778px; }
+    .program h2 {
+      margin: 0 auto 1000px; }
+  .program-img {
+    min-width: 1537px;
+    left: auto;
+    top: -1300px;
+    right: -80%;
+    -webkit-transform: none;
+            transform: none; }
+  .program-col {
+    width: 100%; }
+    .program-col:last-child {
+      text-align: left; }
+      .program-col:last-child .program-box {
+        max-width: 630px;
+        margin: 0 0 45px; }
+  body {
+    background: #fff url("../img/bg4-tablet.jpg") no-repeat center bottom;
+      background-size: 100%; }
+  .home:before {
+    top: 0;
+    width: 963px;
+    height: 642px; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .course-box__date {
+    font-size: 40px;
+    list-style: -0.4px; }
+  .course-box-wrapper {
+    padding: 43px 0 0;
+    max-width: 768px;
+    margin: 0 auto; }
+  .course-box__img {
+    margin: -123px -120px -140px;
+    position: relative;
+    min-width: 768px; }
+  .about {
+    padding: 105px 0 120px; }
+  .video-box {
+    height: 356px;
+    margin: 0 auto 120px; }
+  .wrappers-section:before {
+    background: url("../img/decor1-tablet.png") no-repeat center;
+      background-size: 100%;
+    height: 1493px;
+    bottom: -450px; }
+  .practice-col {
+    font-size: 33px;
+    width: 100%; }
+    .practice-col__text {
+      max-width: 530px;
+      margin: 0 auto; }
+  .practice {
+    padding: 130px 0; }
+  .name-author {
+    font-size: 105px;
+    line-height: 1.05;
+    letter-spacing: -5.25px; }
+  .photo-author {
+    margin: -200px auto -100px; }
+    .photo-author:before {
+      left: -50px;
+      top: -180px; }
+  .program-img {
+    right: -95%;
+    top: -1200px;
+    min-width: 1400px; }
+  .reviews {
+    margin: 100px 0 0; }
+  .reviews-box {
+    padding: 40px; }
+  .home:before {
+    width: 100%;
+    height: 100%;
+    right: 0;
+    top: 0; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 680px) {
+  h1 {
+    font-size: 65.5px;
+    margin: 28px auto 0; }
+  h2 {
+    font-size: 37.5px;
+    margin: 0 auto 43px; }
+  .logo {
+    margin: 40px auto;
+    max-width: 234px; }
+  .course-box p {
+    font-size: 20.5px;
+    letter-spacing: -0.21px;
+    max-width: 270px; }
+  .course-box-wrapper {
+    padding: 6px 0 0;
+    max-width: 480px;
+    margin: 0 auto; }
+  .home:before {
+    background: url("../img/decro4-480.png") no-repeat center;
+      background-size: 100%;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    top: 0; }
+  .home:after {
+    background: url("../img/decor5-480.png") no-repeat center;
+      background-size: 100%;
+    width: 100%;
+    height: 866px;
+    top: 50%;
+    left: 0; }
+  .course-box__img {
+    min-width: 650px;
+    max-width: 650px;
+    margin: -73px -100px -140px; }
+  .btn {
+    height: 52px;
+    font-size: 15.5px;
+    padding: 0 77px; }
+  .about {
+    padding: 64px 0 80px; }
+    .about h2 {
+      margin: 0 auto 48px;
+      font-size: 38px; }
+  .box-text {
+    font-size: 21px; }
+    .box-text p {
+      margin: 0 0 22px; }
+  .video-box {
+    border-radius: 12.5px; }
+  .causes-content {
+    padding: 516px 0 398px;
+    max-width: 430px; }
+    .causes-content ul {
+      margin: 54px auto 0;
+      font-size: 20.5px; }
+  .list li {
+    padding: 0 0 33px; }
+    .list li:before {
+      bottom: 15px;
+      width: 6px;
+      height: 6px; }
+  .wrappers-section:before {
+    height: 934px;
+    width: 100%;
+    bottom: -350px;
+    background-position: center bottom; }
+  .practice {
+    padding: 74px 0 80px; }
+    .practice h2 {
+      margin: 0 auto 43px; }
+  .practice-col {
+    font-size: 20.5px;
+    margin: 0 auto 40px; }
+    .practice-col__img {
+      max-width: 191px; }
+    .practice-col__text {
+      max-width: 335px; }
+  .author-course h2 {
+    margin: 0 auto 52px;
+    max-width: 290px; }
+  .author-course .box-text {
+    max-width: 360px; }
+  .name-author {
+    font-size: 65.5px; }
+  .photo-author {
+    margin: -120px auto -40px; }
+    .photo-author:before {
+      width: 100%;
+      height: 100%;
+      top: -80px;
+      left: -40px; }
+  .program {
+    padding: 82px 0 43px; }
+    .program:before {
+      width: 158px;
+      height: 486px;
+      top: 220px;
+      left: -15px; }
+    .program h2 {
+      margin: 0 auto 624px; }
+  .program-img {
+    min-width: 500px;
+    max-width: 850px;
+    top: -800px;
+    right: -65%; }
+  .program-box {
+    margin: 0 0 25px; }
+    .program-box .box-text {
+      font-size: 19px; }
+    .program-box h3 {
+      margin: 0 0 20px;
+      font-size: 30px; }
+  .tariffs h2 {
+    margin: 0 auto 83px; }
+  .price {
+    font-size: 45px;
+    margin: 0 auto 45px; }
+    .price span {
+      font-size: 22.5px; }
+  .tariffs-box {
+    min-height: 725px;
+    margin: 0 auto 42px;
+    padding: 49px 49px 53px; }
+    .tariffs-box h3 {
+      font-size: 37.5px; }
+      .tariffs-box h3 span {
+        font-size: 19px; }
+    .tariffs-box ul {
+      font-size: 20.5px; }
+      .tariffs-box ul span {
+        font-size: 15px; }
+    .tariffs-box .btn {
+      padding: 0 10px;
+      width: 100%; }
+  .btn-accent {
+    font-size: 15px;
+    letter-spacing: 0.75px;
+    border-radius: 18.8px;
+    height: 69px; }
+  .list-check {
+    margin: 0 0 41px; }
+    .list-check li {
+      padding: 0 0 0 29px; }
+      .list-check li:before {
+        width: 21px;
+        height: 21px;
+        top: 0; }
+  footer {
+    margin: 40px 0 0;
+    padding: 30px 0;
+    font-size: 14px; }
+  .slick-arrow {
+    width: 20px;
+    height: 60px; }
+  .slick-dots {
+    margin: 30px auto 0; }
+  .reviews {
+    margin: 75px 0 0; } }
+
+@media only screen and (max-width: 480px) {
+  .modal__wrapper h3 {
+    font-size: 30px; }
+  .modal__wrapper .price {
+    font-size: 30px; }
+  .form button {
+    height: 60px; }
+  .reviews-box {
+    font-size: 18px;
+    padding: 30px; }
+  footer {
+    margin: 40px 0 0;
+    padding: 40px 0; }
+  h2 {
+    font-size: 37.5px;
+    margin: 0 auto 43px; }
+  .video-box {
+    height: 224px;
+    margin: 0 auto 74px; }
+  .btn {
+    padding: 0 16px; } }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 420px) {
+  .author-course .box-text {
+    max-width: 240px;
+    font-size: 14px; }
+  .author-course h2 {
+    margin: 0 auto 34px;
+    font-size: 25px;
+    max-width: 190px; }
+  .name-author {
+    font-size: 44px;
+    letter-spacing: -2.2px; }
+  .photo-author {
+    margin: -80px auto -40px; }
+    .photo-author:before {
+      top: -60px;
+      left: -30px; }
+  .box-text p {
+    margin: 0 0 20px; }
+  h1 {
+    font-size: 44px;
+    margin: 18px auto 0; }
+  .course-box p {
+    font-size: 14px;
+    letter-spacing: -0.14px;
+    max-width: 180px; }
+  .course-box__date {
+    max-width: 230px;
+    margin: 0 auto; }
+  .home .btn {
+    padding: 0 50px;
+    font-size: 10.5px;
+    height: 35px; }
+  .course-box__img {
+    min-width: 450px;
+    max-width: 450px;
+    margin: -73px -30px -140px; }
+  .about {
+    padding: 50px 0 60px; }
+    .about h2 {
+      font-size: 25.5px;
+      margin: 0 auto 55px; }
+    .about .box-text {
+      font-size: 14px; } }
+
+@media only screen and (max-width: 360px) {
+  .course-box__img {
+    margin: -73px -60px -140px; }
+  h2 {
+    font-size: 25px; }
+  .tariffs h2 {
+    margin: 0 auto 54px; }
+  .tariffs-box {
+    padding: 32px 32px 36px;
+    min-height: 484px;
+    margin: 0 auto 28px; }
+    .tariffs-box h3 {
+      font-size: 25px;
+      letter-spacing: -0.63px; }
+      .tariffs-box h3 span {
+        font-size: 12.5px; }
+    .tariffs-box ul {
+      font-size: 14px;
+      margin: 0 0 27px; }
+      .tariffs-box ul span {
+        font-size: 10px; }
+      .tariffs-box ul li {
+        padding: 0 0 0 19px;
+        margin: 0 0 12px; }
+    .tariffs-box .btn {
+      font-size: 10px; }
+  .btn {
+    height: 47px;
+    border-radius: 12.5px; }
+  .list-check li:before {
+    width: 14px;
+    height: 14px; }
+  .price {
+    margin: 0 auto 25px;
+    font-size: 30px; }
+    .price span {
+      font-size: 15px; }
+  .form input {
+    font-size: 15px; }
+  .form label {
+    margin: 0 0 20px; }
+  .reviews {
+    margin: 50px 0 0; }
+  .reviews-box {
+    font-size: 14px;
+    padding: 30px 20px; }
+  .program {
+    padding: 54px 0 20px; }
+    .program:before {
+      width: 106px;
+      height: 324px;
+      top: 120px; }
+    .program h2 {
+      margin: 0 auto 412px; }
+  .program-img {
+    max-width: 500px;
+    min-width: 600px;
+    top: -550px;
+    right: -103%; }
+  .program-box h3 {
+    font-size: 20px;
+    letter-spacing: -0.2px; }
+  .program-box .box-text {
+    letter-spacing: -0.13px;
+    font-size: 12.5px; }
+  .photo-author {
+    min-width: 380px;
+    margin: -100px -50px -40px; }
+    .photo-author:before {
+      top: -80px; }
+  .practice {
+    padding: 48px 0; }
+  .practice-col {
+    font-size: 14px;
+    margin: 0 auto 19px; }
+    .practice-col__img {
+      max-width: 127px;
+      margin: 0 auto; }
+    .practice-col__text {
+      max-width: 230px; }
+  .causes-content {
+    padding: 330px 0 266px;
+    max-width: 285px; }
+    .causes-content h2 {
+      margin: 0 auto 35px;
+      max-width: 280px; }
+    .causes-content ul {
+      font-size: 14px;
+      margin: 0 auto; }
+  .list-check li {
+    margin: 0 0 30px; }
+  .wrappers-section:before {
+    bottom: -250px; }
+  .video-box {
+    margin: 0 auto 49px;
+    height: 149px;
+    border-radius: 8.3px; } }
