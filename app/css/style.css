@@ -484,7 +484,10 @@ h2 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin: 0 auto 20px; }
+    margin: 0 auto 20px;
+    position: relative; }
+    .practice-col__img img {
+      width: 100%; }
 
 .author-course h2 {
   margin: 0 auto 120px; }
