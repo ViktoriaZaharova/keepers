@@ -428,7 +428,11 @@
     height: 1005px;
     background-size: contain;
     right: -17px;
-    left: auto; } }
+    left: auto; }
+  .tariffs-box {
+    padding: 49px 40px 53px; }
+    .tariffs-box h3 {
+      font-size: 35px; } }
 
 @media only screen and (max-width: 370px) {
   .about .box-text, .author-course .box-text {
