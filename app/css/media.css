@@ -126,7 +126,10 @@
     max-width: 768px;
     margin: 0 auto; }
   .course-box__img {
-    margin: -123px -120px -140px;
+    left: 54%;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+    margin: -123px auto -140px;
     position: relative;
     min-width: 768px; }
   .about {
@@ -206,7 +209,7 @@
   .course-box__img {
     min-width: 650px;
     max-width: 650px;
-    margin: -73px -100px -140px; }
+    margin: -73px auto -140px; }
   .btn {
     height: 52px;
     font-size: 15.5px;
@@ -361,19 +364,26 @@
     margin: 0 auto; }
   .photo-author {
     min-width: 490px;
-    margin: -120px -60px -40px; } }
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width: 420px) {
+    margin: -120px -60px -40px; }
+  .program-wrapper {
+    position: initial; }
   .program-img {
-    top: -830px;
-    right: -510px;
-    min-width: 940px; } }
+    top: 100px;
+    right: auto;
+    left: 0;
+    min-width: auto;
+    max-width: 100%;
+    height: 1400px;
+    width: 480px;
+    background: url("../img/figure-480.png") no-repeat center;
+      background-size: cover; }
+    .program-img img {
+      display: none; } }
 
 @media only screen and (max-width: 400px) {
   .author-course .box-text {
     max-width: 300px;
-    font-size: 18px; }
+    font-size: 20px; }
   .author-course h2 {
     margin: 0 auto 34px;
     font-size: 25px;
@@ -382,8 +392,8 @@
     font-size: 44px;
     letter-spacing: -2.2px; }
   .photo-author {
-    min-width: 420px;
-    margin: -100px -30px -40px; }
+    min-width: 450px;
+    margin: -110px -50px -40px; }
     .photo-author:before {
       top: -80px;
       left: -30px; }
@@ -403,11 +413,8 @@
     padding: 0 50px;
     font-size: 16px; }
   .course-box__img {
-    min-width: 500px;
-    max-width: 500px;
-    left: 54%;
-    -webkit-transform: translate(-50%, 0);
-            transform: translate(-50%, 0);
+    min-width: 540px;
+    max-width: 540px;
     margin: -73px auto -140px; }
   .about {
     padding: 50px 0 60px; }
@@ -415,7 +422,13 @@
       font-size: 30.5px;
       margin: 0 auto 55px; }
     .about .box-text {
-      font-size: 18px; } }
+      font-size: 20px; }
+  .program-img {
+    width: 465px;
+    height: 1005px;
+    background-size: contain;
+    right: -17px;
+    left: auto; } }
 
 @media only screen and (max-width: 370px) {
   .about .box-text, .author-course .box-text {
@@ -473,11 +486,6 @@
       top: 120px; }
     .program h2 {
       margin: 0 auto 412px; }
-  .program-img {
-    max-width: 500px;
-    min-width: 600px;
-    top: -550px;
-    right: -300px; }
   .program-box h3 {
     font-size: 20px;
     letter-spacing: -0.2px; }
